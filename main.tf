@@ -11,6 +11,7 @@ provider "azurerm" {
 subscription_id="fd7d53ef-e290-4ab1-937e-fec061c00132"
 tenant_id="7a32773c-a86e-490d-ae40-5780e4791a65"
 client_secret="I-R8Q~iof_.aW_ITVAg2CD9nL0kwyigGeao_Ddb1"
+features{}
 }
 resource "azurerm_resource_group" "example" {
   name     = "example"
